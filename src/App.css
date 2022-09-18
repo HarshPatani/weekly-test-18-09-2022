@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins&display=swap");
+:root {
+  --bg-white: #f8f8f8;
+  --lavender: #7746d3;
+  --purple: #634ad6;
+  --light-green: #58c193;
+  --dark-green: #6dc17f;
+  --yellow: #facd51;
+  --orange: #e98271;
+  --bg-purple: #595282;
+}
+#f8f8f8 #7746d3 #634ad6 #58c193 #6dc17f #facd51 #e98271 #595282 * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  display: flex;
+  background-color: var(--bg-white);
+  width: 20vw;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-list {
+  background-color: var(--bg-white);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  column-gap: 1 rem;
+  font-size: 22px;
+  width: 20vw;
+}
+.profile img {
+  width: 20%;
+}
