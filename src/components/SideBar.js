@@ -6,14 +6,16 @@ import { FiSettings } from "react-icons/fi";
 
 function SideBar() {
   return (
-    <>
-      <div className="sidebar">
-        <div className="profile">
+    <div className="sidebar">
+      <div className="sidebar-profile">
+        <div className="">
           <img className="profile-img" src={profile} alt="Profile" />
-          <h3>Harsh Patani</h3>
+          <p>
+            <b>Harsh Patani</b>
+          </p>
         </div>
       </div>
-      <div className="sidebar sidebar-list">
+      <div className="sidebar-list">
         <li>
           <AiOutlineHome />
           Home
@@ -35,7 +37,7 @@ function SideBar() {
           Settings
         </li>
       </div>
-    </>
+    </div>
   );
 }
 
