@@ -26,7 +26,7 @@ body {
   width: 15%;
   height: 90vh;
   /* justify-content: center; */
-  border: 2px solid blue;
+/*   border: 2px solid blue; */
   /* align-items: center; */
 }
 
@@ -38,7 +38,7 @@ body {
   align-items: flex-start;
   font-size: 22px;
   /* width: 20vw; */
-  border: 2px solid red;
+/*   border: 2px solid red; */
   padding: 1rem;
 }
 .sidebar-list li {
@@ -49,7 +49,7 @@ body {
 .sidebar-profile {
   display: flex;
   /* flex-direction: column; */
-  border: 2px solid aqua;
+/*   border: 2px solid aqua; */
   /* margin-bottom: 1rem; */
   /* padding: 1rem; */
   margin-top: 3rem;
@@ -58,7 +58,7 @@ body {
 }
 
 .sidebar-profile p {
-  border: 2px solid black;
+/*   border: 2px solid black; */
   margin-top: 1rem;
 }
 /* .sidebar-profile img {
